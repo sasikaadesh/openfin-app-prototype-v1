@@ -62,7 +62,7 @@ const StockLineChart = ({ isDarkMode, chartData }) => {
           useMesh={true}
           // colors={{ scheme: "set1" }} // Use a color scheme from nivo
           colors={[
-            "#FF5733",
+            "#4bad93",
             "#33FF57",
             "#3357FF",
             "#F1C40F",
