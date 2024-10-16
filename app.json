@@ -1,0 +1,50 @@
+{
+  "startup_app": {
+    "name": "MainWindow",
+    "url": "http://localhost:3000",
+    "uuid": "MainWindow",
+    "autoShow": true,
+    "defaultWidth": 800,
+    "defaultHeight": 600,
+    "contextIsolation": true,
+    "permissions": {
+      "System": {
+        "launchExternalProcess": false
+      }
+    }
+  },
+  "applications": [
+    {
+      "name": "SecondWindow",
+      "url": "http://localhost:3000/second-window",
+      "uuid": "SecondWindow",
+      "autoShow": true,
+      "defaultWidth": 600,
+      "defaultHeight": 400
+    },
+    {
+      "name": "ThirdWindow",
+      "url": "http://localhost:3000/third-window",
+      "uuid": "ThirdWindow",
+      "autoShow": false,
+      "defaultWidth": 600,
+      "defaultHeight": 400
+    },
+    {
+      "name": "FourthWindow",
+      "url": "http://localhost:3000/fourth-window",
+      "uuid": "FourthWindow",
+      "autoShow": false,
+      "defaultWidth": 800,
+      "defaultHeight": 100
+    }
+  ],
+  "runtime": {
+    "version": "stable"
+  },
+  "services": [
+    {
+      "name": "snap-and-dock"
+    }
+  ]
+}
